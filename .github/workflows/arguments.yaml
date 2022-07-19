@@ -17,7 +17,7 @@ jobs:
           java -version
       
       - name: Check out Apache Tomcat
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           repository: apache/tomcat # Repository name owner
           ref: master               # The branch, tag or SHA to checkout
